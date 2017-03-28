@@ -1,0 +1,59 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "49e7cc33376f8e0130359be70dbd253c",
+    "content-hash": "6cd55f3bd14a6b17a192e76050a79c49",
+    "packages": [
+        {
+            "name": "suilihui/ding-bot",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/suilihui/DingBot.git",
+                "reference": "8ea2eee2c2549e4a5b5b717ed1f8cb9fc8b93c09"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/suilihui/DingBot/8ea2eee2c2549e4a5b5b717ed1f8cb9fc8b93c09.zip",
+                "reference": "8ea2eee2c2549e4a5b5b717ed1f8cb9fc8b93c09",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Ding\\DingBot\\": "src/Ding/DingBot"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "suilihui",
+                    "email": "466066151@qq.com"
+                }
+            ],
+            "description": "使用钉钉机器人发送通知消息",
+            "time": "2017-03-27 08:12:31"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "suilihui/ding-bot": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.3.0"
+    },
+    "platform-dev": []
+}

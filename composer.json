@@ -1,0 +1,21 @@
+{
+    "name": "suilihui/laravel-ding-bot",
+    "description": "laravel framework send message to dingding robot",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "suilihui",
+            "email": "466066151@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.0",
+        "suilihui/ding-bot": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "LaravelDingBot\\": "src/LaravelDingBot"
+        }
+    }
+}
